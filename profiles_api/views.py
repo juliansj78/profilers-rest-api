@@ -5,7 +5,7 @@ from rest_framework.response import Responce
 class HelloApiView(APIView):
     """Test API View"""
 
-    def get(self, request, format=None)
+    def get(self, request, format=None):
         """Returns a list of APIView features"""
         an_apiview = [
             'Uses HTTP methods as function (get, post, patch, put, delete)',
